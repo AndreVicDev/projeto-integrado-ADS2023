@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Imunização</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Registro de Imunização</h1>
+        <form id="immunizationForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="vaccine">Vacina:</label>
+            <select id="vaccine" name="vaccine" required>
+            </select>
+
+            <label for="date">Data de Imunização:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF válido (XXX.XXX.XXX-XX)">
+            <input type="hidden" id="immunizationId" name="immunizationId">
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Lista de Imunizações</h2>
+        <ul id="immunizationList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
