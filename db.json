@@ -1,0 +1,27 @@
+{
+  "imunizacoes": [
+    {
+      "name": "Zé Ivaldo",
+      "vaccine": "covid-19",
+      "date": "2023-12-10",
+      "cpf": "070.731.579-41",
+      "immunizationId": "",
+      "id": 1
+    }
+  ],
+  "vacinas": [
+    "COVID-19",
+    "Gripe",
+    "poliomilite",
+    "BGC (Bacilo Calmette-Guérin)",
+    "Hepatite B",
+    "Tríplice Viral",
+    "Pentavalente",
+    "Pneumocócica",
+    "Hepatite A",
+    "Meningocócica",
+    "Influenza (Vacina da Gripe)",
+    "Rotavírus",
+    "Varicela"
+  ]
+}
